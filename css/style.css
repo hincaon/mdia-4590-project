@@ -1,0 +1,331 @@
+<meta charset="UTF-8">
+
+/* CSS Document */
+
+body p, b, figcaption, ul li {
+	font-family: Myriad5 Pro, Montserrat, sans-serif;
+	font-size: 1.15rem;
+	color: #888888;
+}
+
+button.w3-button.w3-xlarge.w3-hide-large {
+	position: relative;
+	z-index: 1;
+}
+
+header img[src="img/logo.png"] {
+	width: 10%;
+	margin: auto;
+	margin-top: 2%;
+}
+
+header {
+	background-image: url("../img/header2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #567634;
+	opacity: 0.7;
+}
+
+header button.w3-button {
+	
+	margin-left: 45%;
+	margin-right: 50%;
+	margin-bottom: 5%;
+	background-color: transparent;
+	font-family: Myriad Pro, Monserrat, sans-serif;
+	font-size: 1.5rem;
+	color: #fff;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #ffffff;
+	border-radius: 5px;
+}
+
+header div a {
+	border-radius: 5px;
+
+}
+
+h1 {
+	font-family: Montserrat, Myriad Pro, sans-serif;
+	font-variant: small-caps;
+	font-size: 3rem;
+	font-weight: 600;
+	color: #ffffff;
+	padding-bottom: 5%;
+
+}
+
+h3 {
+	font-family: Montserrat, Myriad Pro sans-serif;
+	font-size: 1.5rem;
+	color: #288404;
+}
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	width: 90%;
+}
+
+div#rightbar {
+	width: 20%;
+	right: -40%;
+}
+
+div#navigation.w3-bar.center {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+section img {
+	opacity: 0.95;
+	width: 85%;
+	margin: auto;
+	box-shadow: 5px 5px 5px #444444;
+}
+
+section>div>a>img {
+	width: 95%;
+	margin-right: 5px;
+}
+
+.w3-bar-item {
+	margin-left: 5%;
+	font-family: Myriad Pro, Monserrat, sans-serif;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.w3-indigo {
+	background-color: #111332;
+}
+
+.w3-green {
+	opacity: 0.7;
+}
+
+figcaption {
+	width:95%;
+}
+
+iframe {
+	border-style: none;
+}
+
+ul li {
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.left, .middle, .right {
+	width: 33%;
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.zoom {
+    transition: transform, opacity, 0.5s;
+    margin: auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+    opacity: 0.9;
+}
+
+footer {
+	 margin-top: 10%;
+}
+
+footer a {
+	margin: 0px 30px;
+}
+
+footer img {
+	 box-shadow: none;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+
+}
+
+p.clear {
+	clear:both;
+}
+
+.black {
+	color: #000000;
+}
+
+.grey {
+	color:#444444;
+}
+
+.green {
+	color:#81833f;
+}
+
+.blue {
+	color: rgba(60, 120, 250, 1);
+}
+.bluebackground {
+	background-color: #3333bc;
+}
+
+.redbackground {
+	background-color: #872020;
+}
+
+.greenbackground {
+	background-color: #288404;
+}
+
+.vcenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 66%;
+}
+
+.icenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.center {
+	margin: auto;
+	align-self: center;
+	text-align: center;
+}
+
+.nodec {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1600px) {
+	.left, .right, .middle {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+
+	header img[src="img/logo.png"] {
+		display: block;
+		width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+
+	header button.w3-button {
+		margin-left: 43%;
+		margin-right: 50%;
+	}
+	
+	.left, .right, .middle {
+		width: 95%;
+	}
+	.vcenter {
+		width: 95%;
+	}
+	.icenter {
+		width: 97%;
+	}
+	button.w3-xlarge {
+		float: right;
+		margin-right: 10%;
+	}
+	div#rightbar {
+		width: 30%;
+		right: 0;
+		position:relative;
+		animation:animateright 0.4s;
+		@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+	}
+
+	.w3-black {
+		opacity: 0.7;
+	}
+
+	header #navigation {
+		display: none;
+	}
+
+@media screen and (max-width: 850px) {
+	div#rightbar {
+		width: 35%;	
+	}
+}
+
+@media screen and (max-width: 750px) {
+	header button.w3-button {
+		margin-left: 41%;
+		margin-right: 50%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+
+	body {
+		padding: 0px 0px 0px 0px;
+	}
+
+	header button.w3-button {
+		font-size: 1.25rem;
+		margin-left: 40%;
+		margin-right: 50%;
+	}
+
+	div#rightbar {
+		width: 45%;
+	}
+	section img {
+		width: 95%;
+	}
+	.w3-bar-item {
+	font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+	header button.w3-button {
+		margin-left: 37%;
+		margin-right: 50%;
+	}
+
+	div#rightbar {
+		width: 60%;
+	}
+	h2.w3-bar-item {
+		margin-top: 20%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+	div#rightbar {
+		width: 70%;
+	}
+	footer a {
+	margin: 0px 20px;
+	}
+}
