@@ -1,4 +1,4 @@
-<meta charset="UTF-8">
+@charset "UTF-8";
 
 /* CSS Document */
 
@@ -20,7 +20,7 @@ header img[src="img/logo.png"] {
 }
 
 header {
-	background-image: url("../img/header2.png");
+	background-image: url("../img/header3.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #567634;
@@ -146,11 +146,19 @@ a {
 }
 
 footer {
-	 margin-top: 10%;
+	background-color: #567634;
+	opacity: 0.6;
+	margin-top: 10%;
 }
 
 footer a {
+	position: relative;
+	z-index: 1;
 	margin: 0px 30px;
+}
+
+footer p {
+	color: #fff;
 }
 
 footer img {
