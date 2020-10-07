@@ -186,6 +186,10 @@ p.clear {
 	color:#81833f;
 }
 
+.grey {
+	color: #888888;
+}
+
 .blue {
 	color: rgba(60, 120, 250, 1);
 }
